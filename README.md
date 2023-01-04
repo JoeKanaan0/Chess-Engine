@@ -1,0 +1,2 @@
+# Chess-Engine
+ A chess engine that's written in Python from scratch. And there is also chessAI's that work on top of this engine.  When running the main class, only one of the AI's is used and it's the alphabetanegamax algorithm which uses alpha pruning to reduce calculations while finding the optimal move using the given DEPTH. The DEPTH is how far the algorithm can see ahead. Any DEPTH above 4 will take a very long time to make a move. So I made it the highest depth the user can choose.
